@@ -161,6 +161,82 @@ html::-webkit-scrollbar-thumb{
     font-size: 2rem;
 }
 
+.product{
+    padding: 2rem 4%;
+}
+
+.product .box img{
+    border-radius: 50%;
+    border: 1rem solid white;
+}
+
+.product .product-row .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.product .product-row .img img:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+}
+
+.product .row{
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.product .product-row .box{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    width: 50rem;
+    border-radius: 1rem;
+}
+
+.product .product-row .product-content{
+    margin-bottom: 4rem;
+}
+
+.product .product-row .product-content h3{
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.product .product-row .product-content p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: var(--black);
+}
+
+.product .product-row .product-content .orderNow{
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.product .product-row .product-content .orderNow button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+
+.product .product-row .product-content .orderNow button:hover{
+    font-size: 2rem;
+}
+
 
 
 
