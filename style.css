@@ -182,7 +182,7 @@ html::-webkit-scrollbar-thumb{
 .heading{
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin: 5rem;
     color: var(--black);
 }
 
@@ -240,6 +240,9 @@ html::-webkit-scrollbar-thumb{
 
 
 
+.swiper-pagination-bullet{
+    background-color: var(--black);
+}
 
 
 

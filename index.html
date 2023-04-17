@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet cake</title>
 
-
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <!-- cdn icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- custom css file -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
     <!-- header section start here  -->
@@ -58,24 +61,82 @@
         <div class="heading">
             <h2>Our Exclusive products</h2>
         </div>
-        <div class="product-row">
-            <div class="box">
-                <div class="img">
-                    <img src="images/praline.jpg" alt="">
-                </div>
-                <div class="product-content">
-                    <h3>Pralines</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
-                    <div class="orderNow">
-                        <button>Order now</button>
+
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/praline.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pralines</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
+                        <div class="orderNow">
+                            <button>Order now</button>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Cakes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
+                        <div class="orderNow">
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/spoon.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Hot News</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
+                        <div class="orderNow">
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/chocolate.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
+                        <div class="orderNow">
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/courses.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Courses</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reprehenderit</p>
+                        <div class="orderNow">
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
 
     <!-- home section ends here -->
 
+    <!-- swiper js script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js file -->
     <script src="index.js"></script>
+
 </body>
+
 </html>
