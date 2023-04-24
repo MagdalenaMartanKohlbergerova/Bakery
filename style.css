@@ -240,9 +240,6 @@ html::-webkit-scrollbar-thumb {
     font-size: 2rem;
 }
 
-
-
-
 .swiper-pagination-bullet {
     background-color: var(--black);
 }
@@ -251,7 +248,10 @@ html::-webkit-scrollbar-thumb {
 .blogs .blogs-row .box {
     display: flex;
     padding: 5rem;
-    background-color: var(--white);
+    background: url(images/news-background.jpg
+    );
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -292,8 +292,51 @@ html::-webkit-scrollbar-thumb {
     text-shadow: var(--box-shadow);
 }
 
+.newsletter{
+    background: url(images/backgroundcake.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
+.newsletter form{
+    max-width: 45rem;
+    text-align: center;
+    padding: 5rem 0;
+    margin-left: 4rem;
+}
 
+.newsletter form h3{
+    font-size: 3rem;
+    color: var(--white);
+    text-shadow: var(--box-shadow);
+    padding-bottom: .7rem;
+}
+
+.newsletter form .box{
+   width: 93%; 
+   margin: .7rem 0;
+   padding: 1rem 1.2rem;
+   background-color: var(--white);
+   color: var(--black);
+   border-radius: .5rem;
+}
+
+.newsletter form .box2{
+    width: 38%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .5rem .5rem;
+    margin-top: 1rem;
+    color: var(--black);
+    background: var(--white);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.newsletter form .box2:hover{
+    font-size: 1.8rem;
+}
 
 
 
@@ -373,6 +416,23 @@ html::-webkit-scrollbar-thumb {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .newsletter form{
+        max-width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+    
+    .newsletter form .box{
+        width: 80%;
+    }
+
+    .newsletter form .box2{
+        width: 80%;
     }
 }
 
