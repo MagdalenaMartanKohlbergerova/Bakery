@@ -334,10 +334,52 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-.newsletter form .box2:hover{
-    font-size: 1.8rem;
+.review .review-row{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 5rem 5rem 5rem;
 }
 
+.review .review-row .box{
+    width: 50%;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    border-radius: 3rem;
+}
+
+
+.review .review-row .box .client-info{
+    display: flex;
+    align-items: center;
+}
+
+.review .review-row .box .client-review p{
+    text-align: left;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.review .review-row .box .client-info .img{
+    padding-right: 3rem;
+}
+
+.review .review-row .box .client-info .img img{
+    width: 7rem;
+    height: 7rem;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.review .review-row .box .client-info .clientDetailed h3{
+    font-size: 2.5rem;
+}
+
+.review .review-row .box .client-info .clientDetailed p{
+    font-size: 1.5rem;
+}
 
 
 
@@ -434,10 +476,33 @@ html::-webkit-scrollbar-thumb {
     .newsletter form .box2{
         width: 80%;
     }
+
+    .review .review-row .box .client-review p{
+        font-size: 1.5rem;
+    }
+    
+    .review .review-row .box .client-info .img{
+        padding-right: 2rem;
+    }
+    
+    .review .review-row .box .client-info .clientDetailed h3{
+        font-size: 1.8rem;
+    }
+    
+    .review .review-row .box .client-info .clientDetailed p{
+        font-size: 1.3rem;
+    }
+    
 }
 
 @media (max-width:600px) {
     html {
         font-size: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    .blogs .blogs-row .box img {
+        width: 200px;
     }
 }
